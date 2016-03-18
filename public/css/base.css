@@ -1,0 +1,40 @@
+body {
+	background-color: #ecf0f1;
+	font-family: "Source Sans Pro", sans-serif;
+
+	/* BOX MODEL */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+}
+
+#bCard {
+	max-width: 50vw;
+	padding: 20px;
+	background: #ffffff;
+	box-shadow: 5px 5px rgba(0,0,0,0.1);
+	text-align: center;
+}
+
+.quote {
+	font-style: italic;
+	font-size: 1.5rem; /* rem - relative to html, em - relative to parent */
+	font-weight: 200; /* sets how thick or thin characters are displayed */
+}
+
+img {
+	border-radius: 50%;
+	border: 5px solid #ecf0f1;
+	width: 50%;
+	max-width: 150px;
+}
+
+.icon-link:link, 
+.icon-link:visited {
+	color: #ecf0f1;
+}
+
+.icon-link:hover {
+	color: #2980b9;
+}
